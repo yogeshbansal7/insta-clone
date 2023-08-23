@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instagram Clone</title>
+</head>
+<body>
+    <header>
+        <h1>Instagram Clone</h1>
+    </header>
+
+    <button id="add-post-btn">Add Post</button>
+
+    <div class="post-feed" id="post-feed"></div>
+
+    <div id="add-post-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <input type="file" id="post-image" accept="image/*" />
+            <input type="text" id="post-name" placeholder="Your Name" />
+            <textarea id="post-caption" placeholder="Write a caption..."></textarea>
+            <button id="post-submit">Post</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
